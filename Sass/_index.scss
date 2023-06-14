@@ -1,0 +1,207 @@
+.fondo {
+    height: 1000px;
+    width: 1580px;
+    
+    @media (max-width: 768px) {
+        height: auto;
+        width: 100%;
+    }
+    .fondoNuestros{
+        height: 500px;
+    }
+}
+
+.liContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+    li {
+        display: grid;
+        grid-template-columns: 3fr;
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+}
+
+.logoContainer {
+    height: 40px;
+    width: 50px;
+    padding: 10%;
+
+    @media (max-width: 768px) {
+        height: 30px;
+        width: 40px;
+    }
+}
+
+.sectionDestacados {
+    margin: 40px;
+
+    @media (max-width: 768px) {
+        margin: 20px;
+    }
+}
+
+.destacados {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px;
+    padding: 10px;
+    margin-inline-end: 10px;
+
+    p {
+        color: black;
+        font-style: inherit;
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+}
+
+.imgProducto {
+    height: 400px;
+    width: 280px;
+    padding: 2px;
+    border: double;
+    border-color: gray;
+    margin: 10px;
+
+    @media (max-width: 768px) {
+        height: 300px;
+        width: 200px;
+        margin: 20px;
+    }
+}
+
+.destacadosContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    height: 800px;
+    margin-top: 30px;
+
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
+}
+
+.comprar {
+    background-color: white;
+    border-bottom: 40px;
+    padding: 10px;
+    background-color: rgba(173, 99, 99, 0.959);
+    color: white;
+    margin: 25px;
+    border: none;
+    text-align: center;
+    align-items: center;
+    margin-left: 130px;
+
+    &:hover {
+        font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+        margin: 10px;
+        padding: 5px;
+    }
+}
+
+div p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.nuestrosProductos {
+    margin-top: 50px;
+
+    @media (max-width: 768px) {
+        margin-top: 30px;
+    }
+}
+
+.nosotrosContainer {
+    margin-top: 50px;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin-bottom: 1px;
+    height: 800px;
+
+    @media (max-width: 768px) {
+        margin-top: 50px;
+    }
+}
+
+.subtitulo1 {
+    height: 60px;
+    color: rgb(65, 59, 63);
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+        height: 50px;
+    }
+}
+
+.logoWp {
+    height: 50px;
+    width: 50px;
+
+    @media (max-width: 768px) {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.sticky {
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    left: 90%;
+    bottom: 5%;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+
+.infoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+.pContainer {
+    width: 400px;
+    color: rgb(43, 37, 37);
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
