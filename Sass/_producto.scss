@@ -1,0 +1,40 @@
+h2 {
+    font-size: 30px;
+    color: fuchsia;
+
+    &:hover {
+        font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+    }
+
+}
+
+
+    .col {
+        display: grid;
+        align-items: center;
+        height: 400px;
+        margin-left: 100px;
+        padding-bottom: 20px;
+    
+        @media screen and (min-width: 768px) {
+            margin-left: 0;
+            height: 300px;
+            width: 200px;
+        }
+        }
+
+div .card{
+    height: 400px;
+    width: 300px;
+
+    img{
+        height: 400px;
+        width: 300px;
+
+    }
+}
+
